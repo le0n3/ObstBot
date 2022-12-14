@@ -42,8 +42,6 @@ async def status_task(client):
     while True:
         await client.change_presence(activity=discord.Game('Der Obst Bot'), status=discord.Status.online)
         await asyncio.sleep(30)
-        await client.change_presence(activity=discord.Game('Hüter des Hauses'), status=discord.Status.online)
-        await asyncio.sleep(30)
         await client.change_presence(activity=discord.Game('!help / !h'), status=discord.Status.online)
         await asyncio.sleep(30)
 
