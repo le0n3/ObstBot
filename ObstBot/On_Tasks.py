@@ -162,7 +162,6 @@ def s_Counter():
 
 
 def joke():
-    url = f"https://api.openweathermap.org/data/2.5/weather?lat=49.94075694090485&lon=11.598245891210388&appid=00e17795f9682c6f7972dc966e1bf2f9"
 
     url = "https://dad-jokes.p.rapidapi.com/random/joke"
 
