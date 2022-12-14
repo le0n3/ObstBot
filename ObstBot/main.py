@@ -1,6 +1,5 @@
 import discord
 import On_message
-import On_Member_Join
 import On_Ready
 import On_reaction_add
 
@@ -12,7 +11,6 @@ def main():
 
     On_Ready.Ready(client)
     On_message.messages(client)
-    On_Member_Join.member_Join(client)
     On_reaction_add.On_reationen(client)
 
 
