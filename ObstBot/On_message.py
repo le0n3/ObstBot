@@ -149,6 +149,10 @@ def messages(client):
         if content == "!AllIn".lower():
             await command_allin(nachricht, log_chanelle)
 
+        if content == "LOL".lower():
+            await nachricht.channel.send("LOL !?!?")
+
+
         # endregion
 
     # endregion
