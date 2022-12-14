@@ -39,7 +39,7 @@ def messages(client):
         # region DM
 
         # Replies to direct messages
-        if not nachricht.guild:
+        if not nachricht.guild and nachricht.author != client.user:
             await nachricht.channel.send('Was ist dein Anligen!?!? ')
         #endregion
 
